@@ -17,7 +17,7 @@ def hora():
     reloj_label.config(text=tiempo_actual)
     ventana.after(1000, hora)
 
-# Funciones de la Lista de Tareas (Adaptado de tu código)
+# Funciones de la Lista de Tareas 
 def agregar_tarea():
     """Añade una tarea del campo de entrada a la Listbox."""
     tarea = ingreso_tarea.get() # Usando tu variable 'ingreso_tarea'
